@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stamps",
+  "info": {
+    "singularName": "stamp",
+    "pluralName": "stamps",
+    "displayName": "Stamp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
