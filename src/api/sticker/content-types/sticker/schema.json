@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "stamps",
+  "collectionName": "stickers",
   "info": {
-    "singularName": "stamp",
-    "pluralName": "stamps",
-    "displayName": "Stamp"
+    "singularName": "sticker",
+    "pluralName": "stickers",
+    "displayName": "Sticker"
   },
   "options": {
     "draftAndPublish": true
