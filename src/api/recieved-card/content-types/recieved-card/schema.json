@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recieved_cards",
+  "info": {
+    "singularName": "recieved-card",
+    "pluralName": "recieved-cards",
+    "displayName": "RecievedCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::card.card"
+    },
+    "reciever": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}
