@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sticker",
     "pluralName": "stickers",
-    "displayName": "Sticker"
+    "displayName": "Sticker",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,12 +13,19 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "randomVariants": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false,
-      "required": true
+      "multiple": true
     }
   }
 }
