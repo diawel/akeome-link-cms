@@ -23,7 +23,7 @@
       "target": "plugin::users-permissions.user"
     },
     "randomSeed": {
-      "type": "string",
+      "type": "integer",
       "required": true
     }
   }
