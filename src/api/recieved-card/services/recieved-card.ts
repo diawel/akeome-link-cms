@@ -1,7 +1,7 @@
 /**
- * recieved-card service
+ * received-card service
  */
 
-import { factories } from '@strapi/strapi';
+import { factories } from "@strapi/strapi";
 
-export default factories.createCoreService('api::recieved-card.recieved-card');
+export default factories.createCoreService("api::received-card.received-card");
