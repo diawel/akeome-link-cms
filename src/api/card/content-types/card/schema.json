@@ -40,7 +40,7 @@
     "shareId": {
       "type": "customField",
       "customField": "plugin::strapi-advanced-uuid.uuid",
-      "required": true
+      "required": false
     }
   }
 }
