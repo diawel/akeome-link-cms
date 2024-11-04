@@ -41,6 +41,11 @@
       "type": "customField",
       "customField": "plugin::strapi-advanced-uuid.uuid",
       "required": false
+    },
+    "isExpress": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
