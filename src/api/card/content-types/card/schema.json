@@ -28,7 +28,7 @@
         "images"
       ]
     },
-    "layout": {
+    "view": {
       "type": "json",
       "required": true
     },
@@ -36,6 +36,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "shareId": {
+      "type": "customField",
+      "customField": "plugin::strapi-advanced-uuid.uuid",
+      "required": true
     }
   }
 }
