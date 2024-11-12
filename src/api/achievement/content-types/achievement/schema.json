@@ -17,7 +17,7 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
     },
-    "AchievementKey": {
+    "achievementKey": {
       "type": "string",
       "required": true
     }
