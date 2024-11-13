@@ -21,11 +21,17 @@
       ]
     },
     "randomVariants": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "current": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
