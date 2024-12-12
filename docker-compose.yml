@@ -27,7 +27,7 @@ services:
     ports:
       - "1337:1337"
     networks:
-      - strapi
+      - akeome-link-strapi
     depends_on:
       - strapiDB
 
@@ -41,18 +41,18 @@ services:
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
       POSTGRES_DB: ${DATABASE_NAME}
     volumes:
-      - strapi-data:/var/lib/postgresql/data/ #using a volume
-      #- ./data:/var/lib/postgresql/data/ # if you want to use a bind folder
+      - akeome-link-strapi-data:/var/lib/postgresql/data/ #using a volume
+      # - ./data:/var/lib/postgresql/data/ # if you want to use a bind folder
 
     ports:
       - "5432:5432"
     networks:
-      - strapi
+      - akeome-link-strapi
 
 volumes:
-  strapi-data:
+  akeome-link-strapi-data:
 
 networks:
-  strapi:
-    name: Strapi
+  akeome-link-strapi:
+    name: Akeome Link Strapi
     driver: bridge
